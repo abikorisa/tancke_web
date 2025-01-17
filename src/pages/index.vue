@@ -1,3 +1,5 @@
 <template>
-    this is page
+    <div>
+        this is page
+    </div>
 </template>
