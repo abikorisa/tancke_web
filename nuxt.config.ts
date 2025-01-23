@@ -4,4 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
   srcDir: 'src',
+  runtimeConfig: {
+    public: {
+      SUPABASE_URL: process.env.SUPABASE_URL,
+      SUPABASE_KEY: process.env.SUPABASE_KEY,
+    },
+  }
 })
