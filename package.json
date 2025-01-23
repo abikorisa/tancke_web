@@ -12,6 +12,7 @@
     "format": "eslint --fix . "
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
     "nuxt": "^3.15.2",
     "vue": "latest",
     "vue-router": "latest"
